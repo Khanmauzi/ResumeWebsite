@@ -1,20 +1,36 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<div class="container">
+  <h1 style="text-align: center; color: white">{{title}}</h1>
+</div>
+<div class="container">
+    <table style="padding-left: 10%;width:90%">
+        <tr style="color:white">
+          <td><a routerLink="" routerLinkActive="active">About</a></td>
+          <td><a routerLink="/education"  routerLinkActive="active">Education</a></td>
+          <td><a routerLink="/Work" routerLinkActive="active">Work Experience</a></td>
+          <td><a routerLink="/Projects" routerLinkActive="active">Projects</a></td>
+          <td><a routerLink="/Technical" routerLinkActive="active">Technical-Skills</a></td>
+          <td><a routerLink="/Skills" routerLinkActive="active">Personal Skills</a></td>
+          <td><a routerLink="/Awards" routerLinkActive="active">Awards and Honours</a></td>
+        </tr>
+      </table>
+</div>
+<table style="padding-left:75%;">
+    <tr>
+      <th colspan="2"><h1 style="text-align:left;color:black;font-family:'Times New Roman', Times, serif">Mojammil</h1></th>
+    </tr>
+    <tr>
+      <td style="color: rgb(54, 116, 230);font-size: 30px"><i class="fas fa-mobile-alt"> </i> </td>
+      <td style="text-align: left;padding-left: 10%;font-family:'Times New Roman', Times, serif;font-style: oblique;font-size: 20px;font-weight: bold;">+91-9515536837</td>
+    </tr>
+    <tr>
+      <td style="color: rgb(54, 116, 230);font-size: 30px"><i class="fa fa-envelope" aria-hidden="true"> </i> </td>
+      <td style="text-align: left;padding-left: 10%;font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: oblique;font-size: 15px;font-weight: bold;">kmojammil@student.nitw.ac.in</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+<router-outlet></router-outlet>
+
+
+ 

@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: aliceblue;
+}
+.mainbody {
+    width: 80%;
+    background-color: white;
+    float: left;
+    position: relative;
+    left:10%;
+    
+}
+
+ a {
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(59, 89, 152);;
+    border-radius: 4px;
+  }
+
+  a:visited, a:link {
+    color: white;
+  }
+   a:hover {
+    color: white;
+    background-color: rgb(247, 212, 19);
+  }
+   a.active {
+    color: rgb(115, 207, 39);
+  }
