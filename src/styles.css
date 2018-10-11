@@ -10,8 +10,15 @@ body{
     left:10%;
     
 }
+.Bottom {
+  width: 80%;
+  float: left;
+  position: relative;
+  left: 10%;
+  padding-top: 1%;
+}
 
- a {
+ a.menu {
     padding: 5px 10px;
     padding-bottom: 10px;
     text-decoration: none;
@@ -20,14 +27,14 @@ body{
     font-size: 20px;
     margin-top: 10px;
     display: inline-block;
-    background-color: rgb(59, 89, 152);;
+    background-color: rgb(59, 89, 152);
     border-radius: 4px;
   }
 
-  a:visited, a:link {
+  a:visited {
     color: white;
   }
-   a:hover {
+   a.menu:hover {
     color: white;
     background-color: rgb(247, 212, 19);
   }
@@ -38,4 +45,18 @@ body{
   ul.TickList {
     list-style-image: url('assets/tick.gif')
   }
-  li.folio{ margin:0 20px 20px 0; vertical-align:top}
+  a.links {
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+
+  }
+  a.links:hover{
+    color: aliceblue;
+  }
