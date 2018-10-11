@@ -34,3 +34,8 @@ body{
    a.active {
     color: rgb(115, 207, 39);
   }
+
+  ul.TickList {
+    list-style-image: url('assets/tick.gif')
+  }
+  li.folio{ margin:0 20px 20px 0; vertical-align:top}
